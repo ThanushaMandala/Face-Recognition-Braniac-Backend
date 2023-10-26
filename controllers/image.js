@@ -31,6 +31,7 @@ const handleImage = (req, res, db) => {
     .catch(err => res.status(404).json("Error founding entries !"))
 }
 
+// test
 module.exports = {
     handleImage,
     handleApiCall
